@@ -1,0 +1,12 @@
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.bak
+*.py[co]
+venv/
+/.tox
+/build/
+/.coverage
+/*.egg-info/
+local_test_config.py

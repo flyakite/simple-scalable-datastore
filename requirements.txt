@@ -1,0 +1,7 @@
+azure==0.7.1
+boto==2.25.0
+pep8==1.4.6
+py==1.4.20
+tox==1.7.0
+virtualenv==1.11.2
+wsgiref==0.1.2
