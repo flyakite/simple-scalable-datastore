@@ -79,7 +79,7 @@ Usage
     
 
 ### Config
-Please apply your Amazon AWS account/secret or Azure Table account/secret and put it in test_config.py before you run unittests
+Please apply for your Amazon AWS account/secret or Azure Table account/secret and put it in test_config.py before you run unittests
 
 ### Also...
 1. Before you use the code you still need to read official documents and understand the idea of each database, this is just a basic implementation for simple usage.
