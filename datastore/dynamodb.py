@@ -165,6 +165,7 @@ class DynamoDB(object):
             table = self.create_table(table_name)
         return table
 
+    @transform_table_name
     def update_throughput(self, table_name, read, write):
         table = Table(table_name)
         table.update(throughput={'read': int(read),
