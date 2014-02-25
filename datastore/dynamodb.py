@@ -174,7 +174,7 @@ class DynamoDB(object):
 
     @transform_table_name
     def delete_table(self, table_name):
-        table = Table(table_name)
+        table = self.get_table(table_name)
         return table.delete()
 
     def get_item(self, table_name, key, timedelta_slice=1):
